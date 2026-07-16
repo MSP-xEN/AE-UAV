@@ -1,6 +1,6 @@
 # AE-UAV: An Air-to-Air Event-Based UAV Tracking Benchmark
 
-> **Status:** 📄 Submitted to *IEEE Transactions on Geoscience and Remote Sensing (TGRS)*
+> **Status:** 📄 Submitted to *IEEE Transactions on Geoscience and Remote Sensing (TGRS)*, Under Review.
 
 Official repository for the paper **"AE-UAV: An Air-to-Air Event-Based UAV Tracking Benchmark and a Real-Time Frequency-Domain Tracker."**
 
@@ -42,7 +42,7 @@ AE-UAV is, to the best of our knowledge, the **first airborne-captured event cam
 | Target events | 31.2 million (0.38% of all events) |
 | Event resolution | 1280 × 720 |
 | Annotation | Cumulative-frame keyframes + cubic B-spline continuous trajectories (event-level labels) |
-| Auxiliary modalities | RGB (1920×1080), Thermal IR (640×512), IMU (6-axis @ 200 Hz) |
+| Auxiliary modalities | RGB (1920×1080), Thermal IR (640×512)|
 | Splits | Train 125 / Val 18 / Test 35 |
 
 ### Acquisition System
