@@ -27,7 +27,7 @@ AE-UAV is, to the best of our knowledge, the **first airborne-captured event cam
 - **First A2A event-based UAV tracking benchmark** — captured from an aerial observer platform, not ground-to-air.
 - **178 sequences**, ≈ **2,140 s**, over **8.15 billion events**, at **1280×720** resolution.
 - **Continuous-time cubic B-spline annotations** ($C^2$-continuous), enabling consistent evaluation across temporal resolutions from a single annotation effort.
-- **Multimodal auxiliary data**: synchronized RGB and thermal-infrared imagery plus IMU.
+- **Multimodal auxiliary data**: synchronized RGB and thermal-infrared imagery.
 - Covers diverse **motion geometries** (pursuit / evasion / head-on), **illumination** (daylight / backlit / night), and **trajectory** patterns.
 
 ---
