@@ -1,5 +1,7 @@
 # AE-UAV: An Air-to-Air Event-Based UAV Tracking Benchmark
 
+[![arXiv](https://img.shields.io/badge/arXiv-2607.14726-b31b1b.svg)](https://arxiv.org/abs/2607.14726)
+
 > **Status:** 📄 Submitted to *IEEE Transactions on Geoscience and Remote Sensing (TGRS)*, Under Review.
 
 Official repository for the paper **"AE-UAV: An Air-to-Air Event-Based UAV Tracking Benchmark and a Real-Time Frequency-Domain Tracker."**
@@ -19,6 +21,7 @@ AE-UAV is, to the best of our knowledge, the **first airborne-captured event cam
 - [Dataset Structure](#dataset-structure)
 - [File Formats](#file-formats)
 - [Continuous-Time Annotation Pipeline](#continuous-time-annotation-pipeline)
+- [Citation](#citation)
 - [License](#license)
 
 ---
@@ -125,6 +128,21 @@ where $\mathcal{R}(\mathbf{B}(t))$ is the rectangular target region at time $t$.
 
 The pipeline produces **dual outputs**: frame-level annotations for conventional frame-based trackers, and event-level labels for methods operating at the native (microsecond) temporal resolution.
 
+
+---
+
+## Citation
+
+If you use AE-UAV in your research, please cite:
+
+```bibtex
+@article{jiang2026aeuav,
+  title   = {AE-UAV: An Air-to-Air Event-Based UAV Tracking Benchmark and a Real-Time Frequency-Domain Tracker},
+  author  = {Jiang, Zixin and He, Bing and Xiong, Chaoran and Wang, Zhenzhen and Zhao, Xin and Pei, Ling},
+  journal = {arXiv preprint arXiv:2607.14726},
+  year    = {2026}
+}
+```
 
 ---
 
