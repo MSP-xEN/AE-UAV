@@ -116,7 +116,7 @@ The pipeline has three stages:
 
 $$a(t) = \sum_{j=0}^{M-1} c_j \, B_{j,3}(t)$$
 
-whose basis functions $B_{j,3}(t)$ guarantee **$C^2$ continuity** (smooth position, velocity, and acceleration). The control points are fitted by regularized least-squares — an interpolation-fidelity term plus a curvature penalty ($\lambda = 0.001$) that prevents overfitting — producing physically plausible trajectories rather than step-function jumps.
+whose basis functions $B_{j,3}(t)$ guarantee **$C^2$ continuity** (smooth position, velocity, and acceleration). The spline interpolates every annotated keyframe exactly, so human-annotated boxes are preserved. 
 
 **3. Event-level labeling.** Given the fitted trajectory $\mathbf{B}(t)$, every event $e_k = (x_k, y_k, t_k, p_k)$ receives a binary label
 
