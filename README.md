@@ -2,8 +2,6 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2607.14726-b31b1b.svg)](https://arxiv.org/abs/2607.14726)
 
-> **Status:** 📄 Submitted to *IEEE Transactions on Geoscience and Remote Sensing (TGRS)*, Under Review.
-
 Official repository for the paper **"AE-UAV: An Air-to-Air Event Camera Dataset for UAV Detection and Tracking with Continuous-Time Annotations."**
 
 AE-UAV is, to the best of our knowledge, the **first airborne-captured event camera dataset for air-to-air (A2A) UAV detecton and tracking**. It comprises **178 flight sequences** with **continuous-time cubic B-spline annotations** that yield $C^2$-continuous target trajectories and support evaluation at arbitrary temporal resolutions.
